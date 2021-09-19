@@ -1,0 +1,15 @@
+{
+	"cp-extension": {
+	  "prefix": ["cpp-cp"],
+	  "body": ["#include <bits/stdc++.h>",
+"using namespace std;",
+
+
+"int main() {\n\n#ifndef ONLINE_JUDGE",
+"\tfreopen(\"input.txt\", \"r\", stdin);",
+"#endif\n\n\t$0\n\n\treturn 0;\n}\n"
+	  
+	  ],
+	  "description": "Default cpp code for CP"
+	}
+}
